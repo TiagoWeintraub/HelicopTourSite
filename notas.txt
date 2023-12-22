@@ -1,7 +1,0 @@
-Agregarle el protocolo open graph: og:title, og:type, og:url
-
-Traducir la página a otros idiomas https://www.youtube.com/watch?v=3h54HrpRotg y 
-
-Terminar el index
-
-hacer los mapas personalizados (Al final)
