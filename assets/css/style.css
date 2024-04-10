@@ -6,17 +6,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-
-
-/* VIDEO */
-
-video {
-  -webkit-hide-controls: true;
-  -moz-hide-controls: true;
-  -ms-hide-controls: true;
-}
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -450,6 +439,14 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
+video {
+  -webkit-hide-controls: true;
+  -moz-hide-controls: true;
+  -ms-hide-controls: true;
+}
+
 #hero {
   min-height: 100vh;
   position: relative;
@@ -477,7 +474,6 @@ h6 {
 
 #hero .texto-video {
   position: relative;
-  z-index: 2;
   transition: 0.3s ease-in-out;
 }
 
@@ -485,12 +481,13 @@ h6 {
   position: relative;
   padding-top: 74px;
   text-align: center;
+  z-index: 20;
 }
 
 #hero h1 {
   margin: 0;
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 64px;
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -563,6 +560,7 @@ h6 {
     line-height: 24px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
