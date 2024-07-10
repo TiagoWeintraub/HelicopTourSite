@@ -924,6 +924,7 @@ section {
   align-items: stretch;
   justify-content: space-between;
   max-width: 450px;
+  min-width: 240px;
 }
 
 .caracteristicas li {
