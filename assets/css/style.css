@@ -634,7 +634,7 @@ section {
 }
 
 #flota {
-  background: url("../imagenes/montañaFondo3.png") center;
+  background: url("../imagenes/montañaFondo3.webp") center;
   background-size: cover;
   position: relative;
 }
@@ -1068,7 +1068,7 @@ section {
 .counts {
   padding-bottom: 10%;
   padding-top: 10%;
-  background: url("../imagenes/montañaFondo.jpg") center center no-repeat;
+  background: url("../imagenes/montañaFondo.webp") center center no-repeat;
   background-size: cover;
   min-height: max-content;
 }
@@ -1254,7 +1254,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: url("../imagenes/heliByN.jpg") center;
+  background: url("../imagenes/heliByN.webp") center;
   background-size: cover;
   position: relative;
   padding: 60px 0;
@@ -1355,7 +1355,7 @@ section {
 --------------------------------------------------------------*/
 
 .contact {
-  background: url("../imagenes/montañaFondo2.jpg") center center no-repeat;
+  background: url("../imagenes/montañaFondo2.webp") center center no-repeat;
   background-size: cover;
 }
 
