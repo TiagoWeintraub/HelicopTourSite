@@ -468,7 +468,7 @@ video {
   width: 100%;
   height: 100%;
   background: #1c1c1d;
-  opacity: 0.4;
+  opacity: 0.6;
   /* mix-blend-mode: overlay; */
 }
 
@@ -1559,118 +1559,16 @@ section {
   color: #f0b207;
 }
 
-
-/*--------------------------------------------------------------
-# TRADUCTOR
---------------------------------------------------------------*/
-
-.goog-te-banner-frame.skiptranslate,
-.goog-te-gadget-simple img {
-  display: none !important;
-}
-
-.goog-tooltip {
-  display: none !important;
-}
-
-.goog-tooltip:hover {
-  display: none !important;
-}
-
-.goog-text-highlight {
-  background-color: transparent !important;
-}
-
-.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span {
-  border-left: 0px !important;
-  color: #fff !important;
-  content: "Idioma";
-}
-
-.goog-te-gadget-simple {
-  background-color: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  border-left: 0px !important;
-  border-top: 0px !important;
-  border-bottom: 0px !important;
-  border-right: 0px !important;
-  font-size: 15px !important;
-  font-family: "Open Sans", sans-serif !important;
-  font-weight: 300px;
-  font-stretch: 100%;
-  margin-top: 4px !important;
-  display: inline-block;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  cursor: pointer;
-}
-
-.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
-  display: none;
-}
-
-.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed:hover {
-  color: #f0b207 !important;
-}
-
-.VIpgJd-ZVi9od-ORHb table {
-  display: none !important;
-}
-
-.goog-te-banner-frame {
-  display: none !important;
-}
-
-#goog-gt-tt, .goog-te-balloon-frame{display: none !important;}
-.goog-text-highlight { background: none !important; box-shadow: none !important;}
-
 body {
   top: 0px !important;
 }
 
-.VIpgJd-ZVi9od-xl07Ob-lTBxed span{
-  display: none;
-}
 
-.goog-te-banner-frame.skiptranslate,.goog-te-gadget-simple img,img.goog-te-gadget-icon,.goog-te-menu-value span,.goog-text-highlight{display:none!important}
-
-.goog-te-gadget-simple:before{
-  content:'Idioma' !important;
-  font-size: 15px !important;
-  color: #FFFFFF!important;
-  font-family: 'Open Sans';
-  font-stretch: 100% !important;
-  display: block !important;
-}
-
-.skiptranslate .goog-te-gadget-simple {
-  display: flex;
-  justify-content: center;
-  font-size: 16px !important;
-  color: #FFFFFF!important;
-  font-family: 'Open Sans';
-  font-weight: 600 !important;
-  margin: 0px !important;
-}
 
 #navbar ul li {
   margin-left: 10px ;
   margin-right: 10px ;
 }
-
-.VIpgJd-suEOdc {
-  display: none !important;
-}
-.VIpgJd-yAWNEb-L7lbkb {
-  display: none !important;
-}
-
-.goog-te-combo, .VIpgJd-ZVi9od-ORHb *, .VIpgJd-ZVi9od-SmfZ *, .VIpgJd-ZVi9od-xl07Ob *, .VIpgJd-ZVi9od-vH1Gmf *, .VIpgJd-ZVi9od-l9xktf * {
-  display: none !important;
-  font-size: 4px !important;
-}
-
 
 
 
