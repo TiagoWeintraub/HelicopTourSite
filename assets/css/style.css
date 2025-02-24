@@ -1068,7 +1068,7 @@ section {
 }
 
 .counts {
-  padding-bottom: 10%;
+  padding-bottom: 0%;
   padding-top: 10%;
   background: url("../imagenes/montañaFondo.webp") center center no-repeat;
   background-size: cover;
@@ -1579,7 +1579,8 @@ body {
   max-width: 400px !important;
   min-width: 300px !important;
   width: 100% !important;
-
+  padding-top: 0% !important;
+  
 }
 
 

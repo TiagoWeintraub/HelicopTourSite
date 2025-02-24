@@ -238,29 +238,6 @@
     }
   });
 
-  document.addEventListener("DOMContentLoaded", function () {
-    // Inicializa Swiper
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1, 
-      spaceBetween: 10, 
-      loop: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        768: { slidesPerView: 2 }, 
-        1024: { slidesPerView: 3 }
-      }
-    });
-
-    // Recargar los embeds de Instagram después de que Swiper cargue
-    window.instgrm.Embeds.process();
-  });
   
   /**
    * Animation on scroll
