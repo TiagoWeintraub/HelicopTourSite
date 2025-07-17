@@ -786,6 +786,9 @@ section {
   height: max-content;
   padding-bottom: 4%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card {
@@ -793,7 +796,8 @@ section {
   margin-top: 25px;
   height: 95%;
   border: none;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .imagen-card {
@@ -821,16 +825,26 @@ section {
 .texto-cards {
   overflow: hidden;
   transition: all ease-in-out 0.8s;
+  flex-grow: 1;
 }
 
 .card-price {
   font-size: 22px;
+  margin-top: auto;
 }
 
 .iconos-cards {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+}
+
+.card-footer-content {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .card:hover .imagen-card {
