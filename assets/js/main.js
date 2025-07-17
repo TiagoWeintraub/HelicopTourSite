@@ -166,77 +166,87 @@
   // }
 
 
-  /**
-   * Clients Slider
-   */
-  new Swiper('.clients-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 40
-      },
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 60
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 80
-      },
-      992: {
-        slidesPerView: 6,
-        spaceBetween: 120
-      }
-    }
-  });
-
 
   /**
-   * Portfolio details slider
+   * Inicialización de Swiper solo cuando el DOM y los scripts estén listos
    */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+  function initSwipers() {
+    if (typeof Swiper !== 'undefined') {
+      // Clients Slider
+      new Swiper('.clients-slider', {
+        speed: 400,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        slidesPerView: 'auto',
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 40
+          },
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 60
+          },
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 80
+          },
+          992: {
+            slidesPerView: 6,
+            spaceBetween: 120
+          }
+        }
+      });
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
+      // Portfolio details slider
+      new Swiper('.portfolio-details-slider', {
+        speed: 400,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true
+        }
+      });
+
+      // Testimonials slider
+      new Swiper('.testimonials-slider', {
+        speed: 600,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        slidesPerView: 'auto',
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true
+        }
+      });
+    } else {
+      // Si Swiper aún no está disponible, reintenta después de un breve delay
+      setTimeout(initSwipers, 100);
     }
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSwipers);
+  } else {
+    initSwipers();
+  }
 
   
   /**

@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.helicoptour.com.ar/sitemap.xml
+
+# Allow access to CSS and JS files
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/vendor/
+
+# Disallow unnecessary files
+Disallow: /assets/imagenes/logos/logo.jpg
+Disallow: /assets/imagenes/logos/logo.png
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

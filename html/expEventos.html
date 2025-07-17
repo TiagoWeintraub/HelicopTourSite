@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Language" content="es-AR">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="theme-color" content="#09262c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="MobileOptimized" content="320">
+  <link rel="alternate" hreflang="es-ar" href="https://www.helicoptour.com.ar/html/expEventos.html" />
+  <link rel="alternate" hreflang="x-default" href="https://www.helicoptour.com.ar/html/expEventos.html" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/imagenes/logos/logo.png">
+  <link rel="icon" type="image/webp" sizes="32x32" href="../assets/imagenes/logos/logo.webp">
+  <link rel="apple-touch-icon" href="../assets/imagenes/logos/logo.png">
 
-  <title>HelicopTour | Tours Aéreos en Mendoza</title>
-  <meta name="description" content="Descubre emocionantes tours aéreos en Mendoza, Argentina. Ofrecemos vuelos en aviones y helicópteros, vuelo a medida y experiencias únicas sobre la imponente Cordillera de los Andes, ríos y otros increíbles paisajes. ¡Explora la belleza de Mendoza desde el cielo!" />
-  <meta name="keywords" content="Tours aéreos en Mendoza, tour en helicóptero Argentina,tour en helicóptero Mendoza, helicoptero en Argentina, helicopteros en Mendoza, vuelo a medida, vuelos panorámicos, vuelos sobre bodegas, vistas increíbles en helicoptero, experiencias únicas en helicoptero, turismo en Mendoza, aventuras aéreas, servicios turísticos, vuelos turísticos, excursiones en avión, excursiones en helicóptero, recorridos aéreos, turismo de lujo, actividades turísticas, exploración aérea, turismo experiencial, viajes personalizados, turismo local, maravillas naturales, turismo aventurero, viajes exclusivos, Argentina turística, destinos turísticos Mendoza, turismo de calidad, paseos en helicóptero sobre bodegas, vuelos escénicos, transporte VIP, servicios aéreos Mendoza, viajes premium, escapadas de lujo, turismo de alto nivel, descubrimiento aéreo, tours privados en avión y helicóptero, experiencias inolvidables, destinos turísticos exclusivos, rutas turísticas Mendoza, excursiones aéreas personalizadas, turismo de élite, vuelos sobre la naturaleza, excursiones de lujo, turismo de élite, viajes de aventura en avión y helicóptero, Mendoza vistas aéreas, turismo VIP en Argentina." />
-  <meta property="og:title" content="Tours Aéreos en Mendoza, Argentina | HelicopTour" />
-  <meta property="og:description" content="Descubre emocionantes tours aéreos en Mendoza, Argentina. Ofrecemos vuelos en aviones y helicópteros, vuelo a medida y experiencias únicas sobre la imponente Cordillera de los Andes, ríos y otros increíbles paisajes. ¡Explora la belleza de Mendoza desde el cielo!" />
-  <meta property="og:image" content="../assets/imagenes/logos/logoHtml.webp" />
+  <title>Eventos Especiales en Helicóptero | Bodas y Celebraciones | HelicopTour</title>
+  <meta name="description" content="Celebra eventos únicos con tours en helicóptero. Bodas, cumpleaños y celebraciones especiales en las alturas de Mendoza. Momentos inolvidables." />
+  <meta name="keywords" content="eventos helicóptero Mendoza, bodas helicóptero, celebraciones aéreas, eventos especiales tours aéreos" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Eventos Especiales en Helicóptero | HelicopTour" />
+  <meta property="og:description" content="Celebra eventos únicos con tours en helicóptero. Bodas, cumpleaños y celebraciones especiales en Mendoza." />
+  <meta property="og:image" content="https://www.helicoptour.com.ar/assets/imagenes/Eventos/casamiento.webp" />
+  <meta property="og:url" content="https://www.helicoptour.com.ar/html/expEventos.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+  
+  <!-- SEO Meta Tags -->
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="http://helicoptour.com.ar/" />
+  <meta name="author" content="HelicopTour" />
+  <link rel="canonical" href="https://www.helicoptour.com.ar/html/expEventos.html" />
 
   <!-- Iconos -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
@@ -25,7 +44,9 @@
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Swiper CSS (preload y fallback) -->
+  <link rel="preload" href="../assets/vendor/swiper/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"></noscript>
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
@@ -36,23 +57,17 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-lg-between">
-      <a href="../index.html" class="logo me-auto me-lg-0"><img loading="lazy"src="../assets/imagenes/logos/logo.webp" alt=""
-          class="img-fluid"></a>
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <a href="../index.html" class="logo me-auto me-lg-0" aria-label="Inicio HelicopTour"><img loading="lazy" src="../assets/imagenes/logos/logo.webp" alt="HelicopTour - Tours aéreos en helicóptero y avión en Mendoza" class="img-fluid" width="120" height="90"></a>
+      <nav id="navbar" class="navbar order-last order-lg-0" aria-label="Menú principal">
         <ul>
-          <li><a class="nav-link scrollto" href="../index.html">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="../index.html" aria-current="page">Inicio</a></li>
           <li><a class="nav-link scrollto" href="../index.html#experiencias">Experiencias</a></li>
           <li><a class="nav-link scrollto" href="flota.html">Flota</a></li>
           <li><a class="nav-link scrollto" href="nosotros.html">Nosotros</a></li>
           <li><a class="nav-link scrollto" href="../index.html#contacto">Contacto</a></li>
-          
-
         </ul>
-
-        <i class="fa-solid fa-bars mobile-nav-toggle"></i>
+        <i class="fa-solid fa-bars mobile-nav-toggle" aria-label="Abrir menú"></i>
       </nav>
-
       <button type="button" class="get-started-btn scrollto"
         onclick="window.location.href='mailto:skymdz@yahoo.com'">¡Reserva ahora!</button>
     </div>
@@ -72,7 +87,7 @@
             <div class="section-title mt-5">
               <div class="container" data-aos="fade-up">
                 <h2>Experiencias inolvidables</h2>
-                <p><i class="fa-solid fa-mountain-sun" style="color: #f0b207;"></i> Eventos</p>
+                <h1><i class="fa-solid fa-mountain-sun" style="color: #f0b207;"></i> Eventos</h1>
               </div>
             </div>
           </div>
@@ -261,12 +276,24 @@
 <a href="https://api.whatsapp.com/send?phone=5492613878545" target="_blank"
     class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-brands fa-whatsapp"></i></a>
   <!-- Vendor JS Files -->
-  <script src="../assets/vendor/aos/aos.js"></script>
-  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js" defer></script>
 
   <!-- Template Main JS File -->
-  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/main.js" defer></script>
+
+  <!-- Non-critical JS (carga condicional de AOS) -->
+  <script defer>
+    if (document.querySelectorAll('[data-aos]').length > 0) {
+      var aosScript = document.createElement('script');
+      aosScript.src = '../assets/vendor/aos/aos.js';
+      aosScript.onload = function() {
+        if (typeof AOS !== 'undefined') AOS.init();
+      };
+      document.head.appendChild(aosScript);
+    }
+  </script>
 
 </body>
 
