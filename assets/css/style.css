@@ -240,6 +240,8 @@ h6 {
 
 .navbar a,
 .navbar a:focus {
+
+/* Flex para los reels en instagram-feed */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1631,7 +1633,6 @@ body {
 #footer .footer-top .col-lg-4 {
   min-height: 80px;
 }
-
 
 
 

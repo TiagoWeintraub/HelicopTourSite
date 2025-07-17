@@ -23,7 +23,7 @@
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Experiencia Bautismo en Helicóptero Potrerillos | HelicopTour" />
   <meta property="og:description" content="Vive tu primer vuelo en helicóptero sobre Potrerillos, Mendoza. Experiencia bautismo desde $88,000 ARS. Domingos de 11 a 16hs." />
-  <meta property="og:image" content="https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo1.jpeg" />
+  <meta property="og:image" content="https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo1.webp" />
   <meta property="og:url" content="https://www.helicoptour.com.ar/html/expBautismo.html" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_AR" />
@@ -32,7 +32,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Experiencia Bautismo en Helicóptero Potrerillos | HelicopTour" />
   <meta name="twitter:description" content="Vive tu primer vuelo en helicóptero sobre Potrerillos, Mendoza. Experiencia bautismo desde $88,000 ARS." />
-  <meta name="twitter:image" content="https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo1.jpeg" />
+  <meta name="twitter:image" content="https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo1.webp" />
   
   <!-- SEO Meta Tags -->
   <meta name="robots" content="index, follow" />
@@ -48,7 +48,7 @@
   <!-- Preload critical resources -->
   <link rel="preload" href="../assets/css/style.css" as="style">
   <link rel="preload" href="../assets/imagenes/logos/logo.webp" as="image">
-  <link rel="preload" href="../assets/imagenes/expBautismo/expBautismo1.jpeg" as="image">
+  <link rel="preload" href="../assets/imagenes/expBautismo/expBautismo1.webp" as="image" fetchpriority="high">
 
   <!-- Iconos -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
@@ -61,6 +61,8 @@
   <!-- Foto del header -->
   <link rel="icon" href="../assets/imagenes/logos/logoHtml.webp">
   <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
   <script src="../assets/vendor/swiper/swiper-bundle.min.js" defer></script>
   
@@ -81,26 +83,7 @@
   <link href="../assets/css/style.css" rel="stylesheet">
 
   <!-- Critical CSS -->
-  <style>
-    /* Critical styles for LCP improvement */
-    .flota.inner-page { padding-top: 120px; }
-    /* .section-title h1 { 
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      color: #333;
-      line-height: 1.2;
-      margin-bottom: 1rem;
-    } */
-    .section-title h2 {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      color: #f0b207;
-      margin-bottom: 1rem;
-    }
-    .container { width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
-    .row { display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; }
-    .col-lg-12 { flex: 0 0 100%; max-width: 100%; position: relative; width: 100%; padding-right: 15px; padding-left: 15px; }
-  </style>
+  <style>.flota.inner-page{padding-top:120px}.section-title h2{font-family:'Poppins',sans-serif;font-weight:600;color:#f0b207;margin-bottom:1rem}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-lg-12{flex:0 0 100%;max-width:100%;position:relative;width:100%;padding-right:15px;padding-left:15px}</style>
 
   <!-- Schema.org structured data -->
   <script type="application/ld+json">
@@ -110,9 +93,9 @@
     "name": "Experiencia Bautismo en Helicóptero Potrerillos",
     "description": "Primera experiencia de vuelo en helicóptero sobre el dique Potrerillos y la Cordillera de los Andes. Perfecto para principiantes que desean vivir la emoción del vuelo.",
     "image": [
-      "https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo1.jpeg",
-      "https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo2.jpeg",
-      "https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo3.jpeg"
+      "https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo1.webp",
+      "https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo2.webp",
+      "https://www.helicoptour.com.ar/assets/imagenes/expBautismo/expBautismo3.webp"
     ],
     "offers": {
       "@type": "Offer",
@@ -160,7 +143,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-lg-between">
-      <a href="../index.html" class="logo me-auto me-lg-0" aria-label="Inicio HelicopTour"><img loading="lazy" src="../assets/imagenes/logos/logo.webp" alt="HelicopTour - Tours aéreos en helicóptero y avión en Mendoza" class="img-fluid" width="120" height="90"></a>
+<a href="../index.html" class="logo me-auto me-lg-0" aria-label="Inicio HelicopTour"><img loading="lazy" src="../assets/imagenes/logos/logo.webp" alt="HelicopTour - Tours aéreos en helicóptero y avión en Mendoza" class="img-fluid"></a>
       <nav id="navbar" class="navbar order-last order-lg-0" aria-label="Menú principal">
         <ul>
           <li><a class="nav-link scrollto" href="../index.html" aria-current="page">Inicio</a></li>
@@ -266,16 +249,16 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="../assets/imagenes/expBautismo/expBautismo1.jpeg" class="d-block" alt="Helicóptero preparado para experiencia bautismo en Potrerillos" loading="eager" width="600" height="400">
+                    <img src="../assets/imagenes/expBautismo/expBautismo1.webp" class="d-block" alt="Helicóptero preparado para experiencia bautismo en Potrerillos" loading="eager" width="600" height="400" fetchpriority="high">
                   </div>
                   <div class="carousel-item">
-                    <img src="../assets/imagenes/expBautismo/expBautismo2.jpeg" class="d-block" alt="Vista aérea del dique Potrerillos durante vuelo bautismo" loading="lazy" width="600" height="400">
+                    <img src="../assets/imagenes/expBautismo/expBautismo2.webp" class="d-block" alt="Vista aérea del dique Potrerillos durante vuelo bautismo" loading="lazy" width="600" height="400" decoding="async">
                   </div>
                   <div class="carousel-item">
-                    <img src="../assets/imagenes/expBautismo/expBautismo4.jpeg" class="d-block" alt="Pasajeros disfrutando primera experiencia en helicóptero" loading="lazy" width="600" height="400">
+                    <img src="../assets/imagenes/expBautismo/expBautismo4.webp" class="d-block" alt="Pasajeros disfrutando primera experiencia en helicóptero" loading="lazy" width="600" height="400" decoding="async">
                   </div>
                   <div class="carousel-item">
-                    <img src="../assets/imagenes/expBautismo/expBautismo5.jpeg" class="d-block" alt="Paisaje montañoso de Potrerillos desde helicóptero" loading="lazy" width="600" height="400">
+                    <img src="../assets/imagenes/expBautismo/expBautismo5.webp" class="d-block" alt="Paisaje montañoso de Potrerillos desde helicóptero" loading="lazy" width="600" height="400" decoding="async">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -297,34 +280,22 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 d-flex justify-content-start align-items-center flex-column">
-            <div>
-              <h4><strong style="color: #f0b207;">Precio por persona:</strong></h4>
-            </div>
-            <div>
-              <h4 class="mt-2"><strong class="notranslate">$88.000 ARS</strong></h4>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-4 text-center mb-3 mb-lg-0">
+            <h4><strong style="color: #f0b207;">Precio por persona:</strong></h4>
+            <h4 class="mt-2"><strong class="notranslate">$88.000 ARS</strong></h4>
           </div>
-          <div class="col-lg-4 col-md-4 d-flex justify-content-start align-items-center flex-column">
-            <div>
-              <h4><strong style="color: #f0b207;">Horarios:</strong></h4>
-            </div>
-            <div>
-              <h4 class="mt-2"><strong>Domingos 11hs - 16hs</strong></h4>
-            </div>
+          <div class="col-lg-4 col-md-4 text-center mb-3 mb-lg-0">
+            <h4><strong style="color: #f0b207;">Horarios:</strong></h4>
+            <h4 class="mt-2"><strong>Domingos 11hs - 16hs</strong></h4>
           </div>
-          <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-center flex-column">
-            <div>
-              <h4 class=""><strong style="color: #f0b207;">¡Haz tu reserva!</strong></h4>
-            </div>
-            <div class="footer-links ">
+          <div class="col-lg-4 col-md-4 text-center">
+            <h4><strong style="color: #f0b207;">¡Haz tu reserva!</strong></h4>
+            <div class="footer-links">
               <div class="social-links d-flex justify-content-center align-items-center">
-                <button class="btn-mail" style="border-radius: 4px; color: #09262c;" type="button"
-                  onclick="window.location.href='mailto:skymdz@yahoo.com'"><i class="fa-solid fa-envelope"></i></button>
+                <button class="btn-mail" style="border-radius: 4px; color: #09262c;" type="button" onclick="window.location.href='mailto:skymdz@yahoo.com'"><i class="fa-solid fa-envelope"></i></button>
                 <a class="mx-2" href="https://api.whatsapp.com/send?phone=5492613878545" class="whatsapp" target="_blank" style="color: #09262c;"><i class="fa-brands fa-whatsapp"></i></a>
-                <a class="mx-2" href="#" class="instagram" target="_blank" style="color: #09262c;"><i class="fa-brands fa-instagram"
-                    style="font-size: 30px;"></i></a>
+                <a class="mx-2" href="#" class="instagram" target="_blank" style="color: #09262c;"><i class="fa-brands fa-instagram" style="font-size: 30px;"></i></a>
               </div>
             </div>
           </div>
@@ -333,7 +304,7 @@
 
       <div class="container">
         <div class="d-flex justify-content-left align-items-center mt-5">
-          <h3><i class="fa-solid fa-location-dot" style="color: #f0b207;"></i>  Punto de despegue</h3>
+          <h3><i class="fa-solid fa-location-dot" style="color: #f0b207;"></i>  Punto de Despegue</h3>
         </div>
         <div class="row py-4">
           <iframe style="border:0; width: 100%; height: 400px;"
