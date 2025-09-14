@@ -187,6 +187,8 @@ h6 {
 
 #header .logo img {
   max-height: 90px;
+  object-fit: contain;
+  width: auto;
 }
 
 /*--------------------------------------------------------------
